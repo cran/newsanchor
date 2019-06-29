@@ -1,7 +1,7 @@
 Package: newsanchor
 Type: Package
 Title: Client for the News API
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Preu", "Frie", email = "fr1e@pm.me", role = c("aut", "pro")),
   person("Buhl", "Yannik", email = "ybuhl@posteo.de", role = c("aut", "cre")),
   person("Schulze", "Lars", email = "lars.schulze@hotmail.com", role = c("aut")),
@@ -12,17 +12,17 @@ Encoding: UTF-8
 Depends: R (>= 3.2.0)
 BugReports: https://github.com/correlaid/newsanchor/issues
 LazyData: true
-Imports: devtools, httr, jsonlite, tidyr, xml2, lubridate
+Imports: devtools, httr, jsonlite, tidyr, xml2, lubridate, askpass
 Suggests: dplyr, knitr, magrittr, rmarkdown, robotstxt, rvest, stringr,
-        testthat, tidytext
+        testthat, mockery, tidytext, textdata
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-03-05 21:34:57 UTC; Yannik B
+Packaged: 2019-06-29 12:56:16 UTC; Yannik B
 Author: Preu Frie [aut, pro],
   Buhl Yannik [aut, cre],
   Schulze Lars [aut],
   Dix Jan [aut, pro]
 Maintainer: Buhl Yannik <ybuhl@posteo.de>
 Repository: CRAN
-Date/Publication: 2019-03-05 22:10:11 UTC
+Date/Publication: 2019-06-29 13:10:03 UTC
